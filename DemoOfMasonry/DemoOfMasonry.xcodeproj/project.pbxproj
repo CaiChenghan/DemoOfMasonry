@@ -7,19 +7,28 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B0D33141DC981860094771D /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D33131DC981860094771D /* TableViewCell.m */; };
+		1B0D33171DCAD2BB0094771D /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D33161DCAD2BB0094771D /* MyTableViewCell.m */; };
+		1B0D331A1DCADC5F0094771D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D33191DCADC5F0094771D /* FirstViewController.m */; };
+		1BBEF5941DCC2FAD0080FA59 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEF5931DCC2FAD0080FA59 /* FourViewController.m */; };
 		1BDC4F151DC6E185000F7FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC4F141DC6E185000F7FD5 /* main.m */; };
 		1BDC4F181DC6E185000F7FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC4F171DC6E185000F7FD5 /* AppDelegate.m */; };
 		1BDC4F1B1DC6E185000F7FD5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC4F1A1DC6E185000F7FD5 /* ViewController.m */; };
 		1BDC4F1E1DC6E185000F7FD5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC4F1C1DC6E185000F7FD5 /* Main.storyboard */; };
 		1BDC4F201DC6E185000F7FD5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC4F1F1DC6E185000F7FD5 /* Assets.xcassets */; };
 		1BDC4F231DC6E185000F7FD5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BDC4F211DC6E185000F7FD5 /* LaunchScreen.storyboard */; };
+		1BE8019D1DCB2DC700C50602 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8019C1DCB2DC700C50602 /* SecondViewController.m */; };
+		1BE801A01DCB37F100C50602 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BE8019F1DCB37F100C50602 /* ThirdViewController.m */; };
 		DEE29D866D8A5AB52C816734 /* libPods-DemoOfMasonry.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A326DD29F07E0A45D247C6E3 /* libPods-DemoOfMasonry.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		1B0D33121DC981860094771D /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
-		1B0D33131DC981860094771D /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
+		1B0D33151DCAD2BB0094771D /* MyTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTableViewCell.h; sourceTree = "<group>"; };
+		1B0D33161DCAD2BB0094771D /* MyTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTableViewCell.m; sourceTree = "<group>"; };
+		1B0D33181DCADC5F0094771D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		1B0D33191DCADC5F0094771D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		1B0D331B1DCADFEB0094771D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1BBEF5921DCC2FAD0080FA59 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
+		1BBEF5931DCC2FAD0080FA59 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		1BDC4F101DC6E185000F7FD5 /* DemoOfMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoOfMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BDC4F141DC6E185000F7FD5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1BDC4F161DC6E185000F7FD5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -30,6 +39,10 @@
 		1BDC4F1F1DC6E185000F7FD5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1BDC4F221DC6E185000F7FD5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BDC4F241DC6E185000F7FD5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1BE8019B1DCB2DC700C50602 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1BE8019C1DCB2DC700C50602 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1BE8019E1DCB37F100C50602 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		1BE8019F1DCB37F100C50602 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
 		A326DD29F07E0A45D247C6E3 /* libPods-DemoOfMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DemoOfMasonry.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B482A91DB0A3A9F65C46AA39 /* Pods-DemoOfMasonry.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoOfMasonry.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoOfMasonry/Pods-DemoOfMasonry.debug.xcconfig"; sourceTree = "<group>"; };
 		BE6CF703D7842E4F4121B20D /* Pods-DemoOfMasonry.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoOfMasonry.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoOfMasonry/Pods-DemoOfMasonry.release.xcconfig"; sourceTree = "<group>"; };
@@ -80,8 +93,16 @@
 				1BDC4F171DC6E185000F7FD5 /* AppDelegate.m */,
 				1BDC4F191DC6E185000F7FD5 /* ViewController.h */,
 				1BDC4F1A1DC6E185000F7FD5 /* ViewController.m */,
-				1B0D33121DC981860094771D /* TableViewCell.h */,
-				1B0D33131DC981860094771D /* TableViewCell.m */,
+				1B0D33151DCAD2BB0094771D /* MyTableViewCell.h */,
+				1B0D33161DCAD2BB0094771D /* MyTableViewCell.m */,
+				1B0D33181DCADC5F0094771D /* FirstViewController.h */,
+				1B0D33191DCADC5F0094771D /* FirstViewController.m */,
+				1BE8019B1DCB2DC700C50602 /* SecondViewController.h */,
+				1BE8019C1DCB2DC700C50602 /* SecondViewController.m */,
+				1BE8019E1DCB37F100C50602 /* ThirdViewController.h */,
+				1BE8019F1DCB37F100C50602 /* ThirdViewController.m */,
+				1BBEF5921DCC2FAD0080FA59 /* FourViewController.h */,
+				1BBEF5931DCC2FAD0080FA59 /* FourViewController.m */,
 				1BDC4F1C1DC6E185000F7FD5 /* Main.storyboard */,
 				1BDC4F1F1DC6E185000F7FD5 /* Assets.xcassets */,
 				1BDC4F211DC6E185000F7FD5 /* LaunchScreen.storyboard */,
@@ -95,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				1BDC4F141DC6E185000F7FD5 /* main.m */,
+				1B0D331B1DCADFEB0094771D /* PrefixHeader.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -231,10 +253,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1BE8019D1DCB2DC700C50602 /* SecondViewController.m in Sources */,
 				1BDC4F1B1DC6E185000F7FD5 /* ViewController.m in Sources */,
-				1B0D33141DC981860094771D /* TableViewCell.m in Sources */,
+				1BBEF5941DCC2FAD0080FA59 /* FourViewController.m in Sources */,
+				1B0D33171DCAD2BB0094771D /* MyTableViewCell.m in Sources */,
+				1B0D331A1DCADC5F0094771D /* FirstViewController.m in Sources */,
 				1BDC4F181DC6E185000F7FD5 /* AppDelegate.m in Sources */,
 				1BDC4F151DC6E185000F7FD5 /* main.m in Sources */,
+				1BE801A01DCB37F100C50602 /* ThirdViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -356,6 +382,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MEUL4EX7YB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoOfMasonry/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoOfMasonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caichenghan.DemoOfMasonry;
@@ -370,6 +398,8 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = MEUL4EX7YB;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = DemoOfMasonry/PrefixHeader.pch;
 				INFOPLIST_FILE = DemoOfMasonry/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.caichenghan.DemoOfMasonry;

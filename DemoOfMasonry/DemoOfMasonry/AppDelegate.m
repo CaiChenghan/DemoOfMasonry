@@ -20,8 +20,7 @@
     // Override point for customization after application launch.
     ViewController *viewController = [[ViewController alloc]init];
     UINavigationController *navigationController = [[UINavigationController alloc]initWithRootViewController:viewController];
-    
-    
+//    navigationController.navigationBar.barTintColor = [UIColor magentaColor];
     self.window.rootViewController = navigationController;
     self.window.backgroundColor = [UIColor whiteColor];
     return YES;
