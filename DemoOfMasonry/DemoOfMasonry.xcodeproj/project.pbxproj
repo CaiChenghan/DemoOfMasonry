@@ -9,6 +9,9 @@
 /* Begin PBXBuildFile section */
 		1B0D33171DCAD2BB0094771D /* MyTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D33161DCAD2BB0094771D /* MyTableViewCell.m */; };
 		1B0D331A1DCADC5F0094771D /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B0D33191DCADC5F0094771D /* FirstViewController.m */; };
+		1B8DEBB31DD0151A009CB34D /* FiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B8DEBB21DD0151A009CB34D /* FiveViewController.m */; };
+		1B9328FA1DD01DA2008C7839 /* SixViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9328F91DD01DA2008C7839 /* SixViewController.m */; };
+		1B9328FD1DD024CB008C7839 /* SevenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1B9328FC1DD024CB008C7839 /* SevenViewController.m */; };
 		1BBEF5941DCC2FAD0080FA59 /* FourViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BBEF5931DCC2FAD0080FA59 /* FourViewController.m */; };
 		1BDC4F151DC6E185000F7FD5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC4F141DC6E185000F7FD5 /* main.m */; };
 		1BDC4F181DC6E185000F7FD5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BDC4F171DC6E185000F7FD5 /* AppDelegate.m */; };
@@ -27,6 +30,12 @@
 		1B0D33181DCADC5F0094771D /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
 		1B0D33191DCADC5F0094771D /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
 		1B0D331B1DCADFEB0094771D /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		1B8DEBB11DD0151A009CB34D /* FiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FiveViewController.h; sourceTree = "<group>"; };
+		1B8DEBB21DD0151A009CB34D /* FiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FiveViewController.m; sourceTree = "<group>"; };
+		1B9328F81DD01DA2008C7839 /* SixViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SixViewController.h; sourceTree = "<group>"; };
+		1B9328F91DD01DA2008C7839 /* SixViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SixViewController.m; sourceTree = "<group>"; };
+		1B9328FB1DD024CB008C7839 /* SevenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SevenViewController.h; sourceTree = "<group>"; };
+		1B9328FC1DD024CB008C7839 /* SevenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SevenViewController.m; sourceTree = "<group>"; };
 		1BBEF5921DCC2FAD0080FA59 /* FourViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FourViewController.h; sourceTree = "<group>"; };
 		1BBEF5931DCC2FAD0080FA59 /* FourViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FourViewController.m; sourceTree = "<group>"; };
 		1BDC4F101DC6E185000F7FD5 /* DemoOfMasonry.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoOfMasonry.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -103,6 +112,12 @@
 				1BE8019F1DCB37F100C50602 /* ThirdViewController.m */,
 				1BBEF5921DCC2FAD0080FA59 /* FourViewController.h */,
 				1BBEF5931DCC2FAD0080FA59 /* FourViewController.m */,
+				1B8DEBB11DD0151A009CB34D /* FiveViewController.h */,
+				1B8DEBB21DD0151A009CB34D /* FiveViewController.m */,
+				1B9328F81DD01DA2008C7839 /* SixViewController.h */,
+				1B9328F91DD01DA2008C7839 /* SixViewController.m */,
+				1B9328FB1DD024CB008C7839 /* SevenViewController.h */,
+				1B9328FC1DD024CB008C7839 /* SevenViewController.m */,
 				1BDC4F1C1DC6E185000F7FD5 /* Main.storyboard */,
 				1BDC4F1F1DC6E185000F7FD5 /* Assets.xcassets */,
 				1BDC4F211DC6E185000F7FD5 /* LaunchScreen.storyboard */,
@@ -253,14 +268,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1B8DEBB31DD0151A009CB34D /* FiveViewController.m in Sources */,
 				1BE8019D1DCB2DC700C50602 /* SecondViewController.m in Sources */,
 				1BDC4F1B1DC6E185000F7FD5 /* ViewController.m in Sources */,
+				1B9328FD1DD024CB008C7839 /* SevenViewController.m in Sources */,
 				1BBEF5941DCC2FAD0080FA59 /* FourViewController.m in Sources */,
 				1B0D33171DCAD2BB0094771D /* MyTableViewCell.m in Sources */,
 				1B0D331A1DCADC5F0094771D /* FirstViewController.m in Sources */,
 				1BDC4F181DC6E185000F7FD5 /* AppDelegate.m in Sources */,
 				1BDC4F151DC6E185000F7FD5 /* main.m in Sources */,
 				1BE801A01DCB37F100C50602 /* ThirdViewController.m in Sources */,
+				1B9328FA1DD01DA2008C7839 /* SixViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
